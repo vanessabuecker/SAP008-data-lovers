@@ -130,6 +130,7 @@ footer {
 .wrapper {
   display: block;
   position: relative;
+  height: 133px;
   margin-bottom: 100%;
 }
 
@@ -146,5 +147,5 @@ footer {
     margin: auto;
     background-color: #a41111;
   }
-
 }
+

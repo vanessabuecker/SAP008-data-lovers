@@ -29,7 +29,7 @@ Inicialmente fizemos uma reunião de brainstorm, para que pudéssemos entender q
 - Notion: Usamos o Notion para incluir todas as atividades/ações que tínhamos que realizar e assim separar melhor qual fluxo de trabalho.
 - Figma: Fizemos no Figma o protótipo de baixa fidelidade, onde pensamos na ideia inicial do nosso site, mas depois de realizar pesquisas com os usuários o protótipo inicial passou por várias mudanças para atender melhor o perfil dos users.
 - MetroRetro: Utilizamos esta ferramenta para fazer toda retrospectiva dos passos alcançados na idealização do projeto e também os pontos de melhorias, tanto da aplicação, quanto do trabalho em dupla.
-- Visual Studio Code: Usamos este aplicativo para conseguir implementar a aplicação, usamos o HTML, CSS, JavaScript.
+- Visual Studio Code: Usamos este IDE para conseguir implementar a aplicação, usamos o HTML, CSS, JavaScript.
 
 # História dos usuários
 
