@@ -150,9 +150,7 @@ button:active {
   display: block;
   margin: auto;
   border-radius: 5px;
-  padding: 2%;
   color: rgb(77, 74, 74);
-  padding-left: 25%;
   margin-bottom: 2%;
   align-items: center;
 }
@@ -162,11 +160,8 @@ button:active {
 }
 
 .container_item {
-  display: flex;
-  width: 15%;
   float: left;
-  margin-bottom: 10px;
-  margin: 5px;
+  margin: 8px;
   text-align: center;
 }
 
@@ -183,8 +178,8 @@ button:active {
 }
 
 .poke-img {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   cursor: pointer;
 }
 
@@ -197,6 +192,8 @@ button:active {
 }
 
 .boxImg {
+  height: 230px;
+  width: 140px;
   border: solid 1px rgb(187, 181, 181);
   border-radius: 5px;
   box-shadow: 3px 3px 2px 2px rgb(164, 154, 154);
