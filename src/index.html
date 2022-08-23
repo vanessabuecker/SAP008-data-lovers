@@ -6,19 +6,21 @@
   <title>PokéL♡VERS</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=0.1">
 </head>
 
 <body>
   <nav class="navbar">
     <div class="logo">
-      <img src="./img/logo.png" alt="Imagem da logo">
+      <a href="index.html"><img src="./img/logo.png" alt="Imagem da logo"></a>
     </div>
 
     <ul class="navlist">
-      <li class="list-item"> <a href="./index.html">Home | </a></li>
-      <li class="list-item"> <a href="./news/index.html">News |</a></li>
-      <li class="list-item"> <a target="_blank" href="https://www.pokemothim.net/2013/12/filmes.html">Movies | </a></li>
-      <li class="list-item"> <a target="_blanck" href="https://pokemongolive.com/pt_br/">Pokémon GO </a> </li>
+      <li class="list-item"> <a href="./index.html">Home </a></li>
+      <li class="list-item"> <a href="./news/index.html">News </a></li>
+      <li class="list-item"> <a target="_blank" href="https://www.pokemothim.net/2013/12/filmes.html">Movies </a></li>
+      <li id="li-red" class="list-item"> <a target="_blanck" href="https://pokemongolive.com/pt_br/">Pokémon GO </a>
+      </li>
     </ul>
   </nav>
 
@@ -60,18 +62,15 @@
         <option value="mythic">Mythic</option>
         <option value="normal">Normal</option>
       </select>
+
       <div class="imgAsh"> <img id="imgmain" src="./img/ash.png" alt="Imagem do Ash jogandoa pokebola"> </div>
       <img id="pikachu" src="./img/pika.gif" alt="Gif do pikachu pulando">
-      <button id="newSearch" class="btns">New search</button>
+      <button id="newSearch" class="btns">Clean</button>
     </div>
 
+    <div class="divCalc"> </div>
     <div class="pokeCalc"> </div>
     <div class="result" id="result">
-    </div>
-
-    <div class="modal" id="modal">
-      <div class="modal_content" id="modal_content"> </div>
-      <span id="close"> <img src="./img/buttonclose.png" alt="button close"></span>
     </div>
 
     <div class="modal" id="modal_about">
@@ -79,6 +78,8 @@
       <span id="closeAbout"> <img src="./img/buttonclose.png" alt="button close"></span>
     </div>
   </main>
+
+  <div class="wrapper"> </div>
 
   <footer>
     <div class="foot">

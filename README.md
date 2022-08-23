@@ -24,7 +24,7 @@ Para acessar o site [clique aqui](https://vanessabuecker.github.io/SAP008-data-l
 
 # Ferramentas utilizadas
 
-Inicialmente fizemos uma reunião de brainstorm, para que pudéssemos entender quais as ideias que tínhamos e quais seriam viáveis seguir, com o filtro de todas ideias e quando identificamos que seguiríamos com um site com dados d Pokémon, iniciamos as demais atividades por meio das ferramentas abaixo:
+Inicialmente fizemos uma reunião de brainstorm, para que pudéssemos entender quais as ideias que tínhamos e quais seriam viáveis seguir, com o filtro de todas ideias e quando identificamos que seguiríamos com um site com dados do Pokémon, iniciamos as demais atividades por meio das ferramentas abaixo:
 
 - Notion: Usamos o Notion para incluir todas as atividades/ações que tínhamos que realizar e assim separar melhor qual fluxo de trabalho.
 - Figma: Fizemos no Figma o protótipo de baixa fidelidade, onde pensamos na ideia inicial do nosso site, mas depois de realizar pesquisas com os usuários o protótipo inicial passou por várias mudanças para atender melhor o perfil dos users.
