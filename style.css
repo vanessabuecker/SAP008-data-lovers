@@ -362,6 +362,12 @@ footer {
   .navlist {
     list-style-type: none;
   }
+  .poke-img-info {
+    width: 70px;
+    height: 70px;
+    margin-left: 60%;
+    margin-top: 148px;
+  }
 
 }
 
@@ -373,7 +379,7 @@ footer {
   .navbar {
     display: block;
     font-size: 20px;
-    padding: 5px;
+
   }
 
   #findPokemon {
@@ -416,6 +422,14 @@ footer {
 
   .result {
     width: 60%;
+  }
+  .poke-img-info {
+    display: flex;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 70%;
+    margin-top: 148px;
   }
 
 }
@@ -466,6 +480,16 @@ footer {
 
   .result {
     width: 60%;
+  }
+  .poke-img-info {
+    width: 70px;
+    height: 70px;
+    margin-left: 60%;
+    margin-top: 148px;
+  }
+
+  .pokeInfoAbout{
+    font-size: 12px;
   }
 
 }
@@ -518,6 +542,12 @@ footer {
   .result {
     width: 50%;
     margin: auto;
+  }
+  .poke-img-info {
+    width: 70px;
+    height: 70px;
+    margin-left: 60%;
+    margin-top: 148px;
   }
 
 }
