@@ -131,16 +131,193 @@ footer {
 .wrapper {
   display: block;
   position: relative;
-  margin-bottom: 96.5%;
+  margin-bottom: 100%;
 }
 
-@media screen and (max-width: 375px) {
 
-  footer {
+@media only screen and (max-width: 281px) {
+  .navbar {
+    display: block;
+    font-size: 20px;
+  }
+
+  .foot p {
+    font-size: 10px;
+  }
+
+  .foot img {
+    width: 120px;
+    height: 20px;
+    margin-left: 15%;
+  }
+
+  .newGoItem {
+    display: flex;
     width: 100%;
-    height: 60px;
-    position: absolute;
     margin: auto;
-    background-color: #a41111;
+    border-radius: 15px;
+    background-color: #f0f8ff;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+
+  .newsIMG {
+    height: 150px;
+    width: 250px;
+    border-radius: 10px 1px 1px 10px;
+  }
+
+  .spans {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .newsGo {
+    width: 80%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: auto;
+  }
+
+  #fontSizeSmall {
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width: 415px) {
+  .navbar {
+    display: block;
+    font-size: 20px;
+  }
+
+  .foot p {
+    font-size: 10px;
+  }
+
+  .foot img {
+    min-width: 120px;
+    min-height: 20px;
+    margin-left: 15%;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 543px) {
+
+  .logo img {
+    width: 160px;
+    height: 40px;
+  }
+
+  .foot p {
+    font-size: 14px;
+  }
+
+  .foot img {
+    width: 160px;
+    height: 30px;
+    margin-left: 12%;
+  }
+
+  .newGoItem {
+    text-align: start;
+    display: block;
+    width: 80%;
+    padding: 5%;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    text-align: center;
+  }
+
+  .newsIMG {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+  }
+
+  .spans {
+    display: block;
+    font-size: 18px;
+  }
+
+  #fontSizeSmall {
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 376px) {
+
+  .navbar {
+    display: block;
+    font-size: 18px;
+  }
+
+  .foot p {
+    font-size: 10px;
+  }
+
+  .foot img {
+    width: 160px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+
+  .newGoItem {
+    text-align: start;
+    display: block;
+    width: 80%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 3%;
+  }
+
+  .newsIMG {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+  }
+
+  .spans {
+    display: block;
+    font-size: 18px;
+  }
+
+  #fontSizeSmall {
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 821px) {
+
+  .foot p {
+    font-size: 18px;
+  }
+
+  .foot img {
+    margin-left: 12%;
+  }
+
+  #fontSizeSmall {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+
+  .foot img {
+    margin-left: 12%;
+  }
+
+  #fontSizeSmall {
+    font-size: 12px;
   }
 }
