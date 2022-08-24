@@ -304,5 +304,339 @@ footer {
 .divCalc {
   margin: auto;
   margin-bottom: 2%;
-  width: 30
+  width: 90%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 281px) {
+  .imgAsh {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .find-pokemons {
+    display: flex;
+  }
+
+  #pikachu {
+    margin-left: 90px;
+    bottom: 1px;
+  }
+
+  .orderBy {
+    width: 122px;
+  }
+
+  #pokeType {
+    width: 122px;
+  }
+
+  .btns {
+    width: 95px;
+  }
+
+  .divCalc {
+    width: 80%;
+  }
+
+  .foot p {
+    font-size: 10px;
+  }
+
+  .foot img {
+    width: 120px;
+    height: 20px;
+    margin-left: 15%;
+  }
+
+  .result {
+    width: 50%;
+    margin: auto;
+  }
+
+  .navlist {
+    list-style-type: none;
+  }
+
+}
+
+@media only screen and (max-width: 415px) {
+  .imgAsh {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  #findPokemon {
+    width: 240px;
+  }
+
+  .find-pokemons {
+    display: block;
+  }
+
+  #pikachu {
+    display: none;
+  }
+
+  .orderBy {
+    width: 122px;
+  }
+
+  #pokeType {
+    width: 122px;
+  }
+
+  .btns {
+    width: 95px;
+  }
+
+  .divCalc {
+    width: 80%;
+  }
+
+  .foot p {
+    font-size: 10px;
+  }
+
+  .foot img {
+    width: 120px;
+    height: 20px;
+    margin-left: 15%;
+  }
+
+  .result {
+    width: 60%;
+  }
+
+}
+
+@media only screen and (max-width: 541px) {
+  .imgAsh {
+    display: none;
+  }
+
+  .logo img {
+    width: 160px;
+    height: 40px;
+  }
+
+  .find-pokemons {
+    display: block;
+  }
+
+  #pikachu {
+    display: none;
+  }
+
+  .orderBy {
+    width: 122px;
+  }
+
+  #pokeType {
+    width: 122px;
+  }
+
+  .btns {
+    width: 95px;
+  }
+
+  .divCalc {
+    width: 80%;
+  }
+
+  .foot p {
+    font-size: 14px;
+  }
+
+  .foot img {
+    width: 160px;
+    height: 30px;
+    margin-left: 12%;
+  }
+
+  .result {
+    width: 60%;
+  }
+
+}
+
+
+@media only screen and (max-width: 376px) {
+  .imgAsh {
+    display: none;
+  }
+
+  .navbar {
+    font-size: 18px;
+  }
+
+  .find-pokemons {
+    display: block;
+  }
+
+  #pikachu {
+    margin-left: 90px;
+    bottom: 1px;
+  }
+
+  .orderBy {
+    width: 122px;
+  }
+
+  #pokeType {
+    width: 122px;
+  }
+
+  .btns {
+    width: 95px;
+  }
+
+  .divCalc {
+    width: 80%;
+  }
+
+  .foot p {
+    font-size: 10px;
+  }
+
+  .foot img {
+    width: 120px;
+    height: 20px;
+    margin-left: 15%;
+  }
+
+  .result {
+    width: 50%;
+    margin: auto;
+  }
+
+}
+
+@media only screen and (max-width: 1025px) {
+  .imgAsh {
+    display: none;
+  }
+
+  .find-pokemons {
+    display: block;
+  }
+
+  #pikachu {
+    display: none;
+  }
+
+  #findPokemon {
+    width: 200px;
+  }
+
+  .orderBy {
+    width: 120px;
+  }
+
+  #pokeType {
+    width: 120px;
+  }
+
+  .btns {
+    width: 95px;
+  }
+
+  .divCalc {
+    width: 80%;
+  }
+
+  .result {
+    margin: auto;
+    width: 98%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 1181px) {
+  .imgAsh {
+    display: none;
+  }
+
+  .find-pokemons {
+    display: block;
+  }
+
+  #pikachu {
+    display: none;
+  }
+
+  .orderBy {
+    width: 122px;
+  }
+
+  #pokeType {
+    width: 122px;
+  }
+
+  .btns {
+    width: 95px;
+  }
+
+  .divCalc {
+    width: 80%;
+  }
+
+  .result {
+    width: 98%;
+    margin: auto;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 1369px) {
+  .imgAsh {
+    display: none;
+  }
+
+  .find-pokemons {
+    display: block;
+  }
+
+  #pikachu {
+    display: none;
+  }
+
+  .orderBy {
+    width: 122px;
+  }
+
+  #pokeType {
+    width: 122px;
+  }
+
+  .btns {
+    width: 95px;
+  }
+
+  .divCalc {
+    margin: auto;
+    margin-bottom: 2%;
+    width: 80%;
+    text-align: center;
+  }
+
+  .result {
+    width: 87%;
+    margin: auto;
+  }
+
 }
